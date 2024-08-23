@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Article preview component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        bottom: -20px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="article-container">
+      <!-- Article Image left -->
+      <div class="article-img left-content"></div>
+      <!-- Article Content Right -->
+      <div class="article-content right-content">
+        <h2>
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h2>
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+        <!-- Section Detail -->
+        <div class="detail-section">
+          <!-- Tooltip mobile -->
+          <div class="tooltip-mobile hidden">
+            <span class="share">share</span>
+            <a href="https://www.facebook.com"
+              ><img src="./images/icon-facebook.svg" alt="facebook"
+            /></a>
+            <a href="https://www.twitter.com"
+              ><img src="./images/icon-twitter.svg" alt="twitter"
+            /></a>
+            <a href="https://www.pinterest.com"
+              ><img src="./images/icon-pinterest.svg" alt="pinterest"
+            /></a>
+          </div>
+          <!-- Athor Profile -->
+          <div class="user-profile">
+            <img
+              src="./images/avatar-michelle.jpg"
+              alt="avatar"
+              class="avatar"
+            />
+            <div class="author-info">
+              <span class="author-name">Michelle Appleton</span>
+              <span class="publish-date">28 Jun 2020 </span>
+            </div>
+          </div>
+          <!-- Share Button -->
+
+          <div class="share-item">
+            <img src="./images/icon-share.svg" alt="" class="share-icon" />
+          </div>
+        </div>
+      </div>
+      <div class="tooltip-desktop hidden">
+        <span class="share">share</span>
+        <a href="https://www.facebook.com"
+          ><img src="./images/icon-facebook.svg" alt="facebook"
+        /></a>
+        <a href="https://www.twitter.com"
+          ><img src="./images/icon-twitter.svg" alt="twitter"
+        /></a>
+        <a href="https://www.pinterest.com"
+          ><img src="./images/icon-pinterest.svg" alt="pinterest"
+        /></a>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/mahbt">Mahbt</a>.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
